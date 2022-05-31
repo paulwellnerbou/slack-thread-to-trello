@@ -1,0 +1,21 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.11.1",
+    "trello-node-api": "^0.0.9"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
