@@ -4,10 +4,10 @@ Very simple, prototype implementation.
 
 ## Preparation
 
-* You will need NodeJS and (https://classic.yarnpkg.com/lang/en/docs/install)[Yarn].
+* You will need NodeJS and [Yarn](https://classic.yarnpkg.com/lang/en/docs/install).
 * Copy `.env.example` to `.env`
-* Configure and (https://api.slack.com/tutorials/tracks/hello-world-bolt)[install a slack app in your workspace] (See `slack.app.manifest.yml` for this app's current configuration) and configure the credentials in `.env`
-* (https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction)[Create a Trello API key] and add it to your `.env`, too.
+* Configure and [install a slack app in your workspace](https://api.slack.com/tutorials/tracks/hello-world-bolt) (See `slack.app.manifest.yml` for this app's current configuration) and configure the credentials in `.env`
+* [Create a Trello API key](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction) and add it to your `.env`, too.
 
 ## Run
 
