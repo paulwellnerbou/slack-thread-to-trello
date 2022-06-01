@@ -65,7 +65,7 @@ function createTrelloCard(message) {
         name: extractTitle(messageContent),
         desc: toMarkDown(messageContent),
         pos: 'top',
-        idList: '6295de66e70c5145742fde33', //REQUIRED
+        idList: process.env.TRELLO_LIST_ID
     };
     console.debug("Creating card...")
     console.debug(card)
